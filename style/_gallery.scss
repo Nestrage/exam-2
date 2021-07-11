@@ -1,4 +1,58 @@
-.gallery{
-    display: flex;
-    justify-content: center;
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+  padding-bottom: 135px;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: medium;
+  text-align: center;
+  line-height: 70px;
+}
+.gallery-table {
+  margin-top: 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.gallery-table--left {
+  width: 580px;
+  height: 430px;
+
+  background: url(../img/scott-webb-176434.jpg);
+}
+
+.gallery-table--right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 580px;
+  height: 440px;
+
+  justify-content: space-between;
+}
+
+.gallery-table--right__item-1 {
+  height: 210px;
+  width: 280px;
+  background: url(../img/photos-13323p6Bdc0uhr8Bq.jpg);
+}
+.gallery-table--right__item-2 {
+  height: 210px;
+  width: 280px;
+  background: url(../img/echo-grid-156713.jpg);
+}
+.gallery-table--right__item-3 {
+  height: 210px;
+  width: 280px;
+  background: url(../img/fuse-brussels-169216.jpg);
+}
+.gallery-table--right__item-4 {
+  height: 210px;
+  width: 280px;
+  background: url(../img/tu-tram-pham-202263.jpg);
 }

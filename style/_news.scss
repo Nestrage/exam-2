@@ -1,9 +1,103 @@
-.news{
-    height: 100vh;
-    background-image: url('../img/bgN.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+.news {
+  height: 100vh;
+  background-image: url("../img/city\ 2\ @2x.png"), url("../img/bgN.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*display: flex;
+  justify-content: center;*/
+}
+.news-title {
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+}
+.news__slick {
+  //display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  padding-top: 85px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.news__item {
+  width: 370px;
+  height: 514px;
+}
+
+.news--image {
+  width: 370px;
+  height: 240px;
+}
+.news--content {
+  width: 370px;
+  height: 280px;
+  background: white;
+}
+#section_news .slider {
+  position: relative;
+}
+#section_news .slider {
+  position: relative;
+}
+#section_news .slick-arrow {
+  position: absolute;
+  top: 54%;
+  z-index: 10;
+}
+#section_news .slick-prev {
+  left: -65px;
+  background: url(../img/L.png) 0 0 no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 0;
+}
+#section_news .slick-next {
+  right: -60px;
+  background: url(../img/R.png) 0 0 no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 0;
+}
+#section_news .slick-list {
+  overflow: hidden;
+}
+#section_news .slider {
+  min-width: 0;
+}
+#section_news .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -54px;
+}
+#section_news .slick-dots li {
+  list-style: none;
+  margin: 0 50px;
+}
+#section_news .slick-dots button {
+  font-size: 0;
+  width: 9px;
+  height: 9px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  border: 1px solid white;
+}
+#section_news .slick-active button {
+  background-color: white;
+}
+#section_news .slick-track {
+  display: flex;
 }

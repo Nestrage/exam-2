@@ -1,39 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monticello</title>
-    <link rel="stylesheet" href="style/main.css">
-</head>
-<body>
- 
-    <header class="header">
-        <div class="container">
-            <div class="nav">
-                <img src="img/Logo.png" alt="logo">
-                <ul>
-                    <li><a class="nav-item" href="#head1">About Us</a>
-                    <li><a class="nav-item" href="#head2">Projects</a>
-                    <li><a class="nav-item" href="#head3">News</a>
-                    <li><a class="nav-item" href="#head4">Contact</a>
-                </ul>
-                
-            </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/1666b7b11f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon.ico" />
+  </head>
+  <body>
+    <header class="header" id="section__header">
+      <div class="container">
+        <div class="nav">
+          <img class="nav_image" src="img/Logo.png" alt="logo" />
+          <div class="nav__a">
+            <a class="nav-item before_dots" href="#about">About Us</a>
+            <a class="nav-item before_dots" href="#projects">Projects</a>
+            <a class="nav-item before_dots" href="#news">News</a>
+            <a class="nav-item before_dots" href="#contact">Contact</a>
+          </div>
+          <div class="social__header">
+            <a class="social" href="#!"><i class="fab fa-facebook-f"></i></a>
+            <a class="social" href="#!"><i class="fab fa-twitter"></i></a>
+            <a class="social" href="#!"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
+      </div>
+      <div class="header__slick">
+        <div class="header__item">
+          <h1 class="header-title">simple & mordern</h1>
+          <h3 class="header-text">we make the world's beautiful day</h3>
+        </div>
+        <div class="header__item">
+          <h1 class="header-title">Slide 2</h1>
+          <h3 class="header-text">we make the world's beautiful day</h3>
+        </div>
+        <div class="header__item">
+          <h1 class="header-title">Slide 3</h1>
+          <h3 class="header-text">we make the world's beautiful day</h3>
+        </div>
+        <div class="header__item">
+          <h1 class="header-title">Slide 4</h1>
+          <h3 class="header-text">we make the world's beautiful day</h3>
+        </div>
+        <div class="header__item">
+          <h1 class="header-title">Slide 5</h1>
+          <h3 class="header-text">we make the world's beautiful day</h3>
+        </div>
+      </div>
+      <div class="scroll_down">
+        <a href="#about" class="scroll_down__a">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="46"
+            height="46"
+            viewbox="0 0 32 32"
+          >
+            <g id="icomoon-ignore"></g>
+            <path
+              d="M15.214 19.175l0.754 0.754 6.035-6.035-0.754-0.754-5.281 5.281-5.256-5.256-0.754 0.754 3.013 3.013z"
+              fill="#FFFFFF"
+            ></path>
+          </svg>
+        </a>
+      </div>
     </header>
     <main>
-        <section class="projects">
-            <div class="container"></div>
-        </section>
-        <section class="news">
-            <div class="container"></div>
-        </section>
-        <section class="gallery">
-            <div class="container"></div>
-        </section>
+      <section class="projects">
+        <div class="container">
+          <div class="line black-line"></div>
+          <h2 class="projects-title" id="about">What we do</h2>
+          <div class="projects-content">
+            <div class="projects-content--img"></div>
+            <div class="projects-content--text">
+              <h3 class="projects-content--text__h3">One world</h3>
+              <h2 class="projects-content--text__h2">Trade center</h2>
+              <p class="projects-content--text__p">
+                Increasing prosperity in our lives can be accomplished by having
+                the right frame of mind. The truth is, our thougths are very
+                powerful.
+              </p>
+              <button class="btn">See more</button>
+            </div>
+          </div>
+          <div class="projects-content">
+            <div class="projects-content--text">
+              <h3 class="projects-content--text__h3">International</h3>
+              <h2 class="projects-content--text__h2" id="projects">
+                Commerce centre
+              </h2>
+              <p class="projects-content--text__p">
+                Increasing prosperity in our lives can be accomplished by having
+                the right frame of mind. The truth is, our thougths are very
+                powerful.
+              </p>
+              <button class="btn">See more</button>
+            </div>
+            <div class="projects-content--img-2"></div>
+          </div>
+        </div>
+      </section>
+      <section class="news" id="section_news">
+        <div class="container">
+          <div class="line white-line"></div>
+          <h2 class="news-title">Latest news</h2>
+        </div>
+
+        <div class="news__slick">
+          <div class="news__item">
+            <div class="news--image">
+              <img src="/img/lauren-mancke-60633.jpg" alt="" />
+            </div>
+            <div class="news--content">
+              <h2 class="h2_news">See The Unmatched Beauty Of The Great.</h2>
+              <p class="p_news_first">
+                Free directories: directories are perfect for customers that
+                are... searching for
+              </p>
+              <div class="div_p_news_second">
+                <div class="icons_img">
+                  <img src="img/icons_news1.png" alt="icons_news1" />
+                </div>
+                <div class="icons_texts">
+                  <h3 class="div_p_news_second_h3">Isaac Dunn</h3>
+                  <p class="div_p_news_second_p">09 Feb 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news--image">
+              <img src="/img/matthew-hamilton-202227.jpg" alt="" />
+            </div>
+            <div class="news--content">
+              <h2 class="h2_news">Effective Advertising Pointers.</h2>
+              <p class="p_news_first">
+                Having a home based business is a wonderful asset to your
+                life...
+              </p>
+              <div class="div_p_news_second">
+                <div class="icons_img">
+                  <img src="img/icons_news2.png" alt="icons_news1" />
+                </div>
+                <div class="icons_texts">
+                  <h3 class="div_p_news_second_h3">Dominic Freeman</h3>
+                  <p class="div_p_news_second_p">24 Apr 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news--image">
+              <img src="/img/joel-filipe-151690.jpg" alt="" />
+            </div>
+            <div class="news--content">
+              <h2 class="h2_news">Hypnotize Yourself Into The Ghost.</h2>
+              <p class="p_news_first">
+                There are many things that are important to catalog design....
+              </p>
+              <div class="div_p_news_second">
+                <div class="icons_img">
+                  <img src="img/icons_news3.png" alt="icons_news1" />
+                </div>
+                <div class="icons_texts">
+                  <h3 class="div_p_news_second_h3">Alice Ward</h3>
+                  <p class="div_p_news_second_p">30 Dec 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news--image">
+              <img src="/img/matthew-hamilton-202227.jpg" alt="" />
+            </div>
+            <div class="news--content">
+              <h2 class="h2_news">See The Unmatched lalallalalal.</h2>
+              <p class="p_news_first">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+                ea magnam ut pariatur molestiae dolores a quaerat qui
+                aspernatur, similique corrupti unde, eaque voluptatem iste et
+                non explicabo vel architecto.
+              </p>
+              <div class="div_p_news_second">
+                <div class="icons_img">
+                  <img src="img/icons_news2.png" alt="icons_news1" />
+                </div>
+                <div class="icons_texts">
+                  <h3 class="div_p_news_second_h3">MAx Dunn</h3>
+                  <p class="div_p_news_second_p">09 Sep 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container">
+          <div class="line black-line"></div>
+          <h2 class="gallery-title">Gallery</h2>
+          <div class="gallery-table">
+            <div class="gallery-table--left"></div>
+            <div class="gallery-table--right">
+              <div class="gallery-table--right__item-1"></div>
+              <div class="gallery-table--right__item-2"></div>
+              <div class="gallery-table--right__item-3"></div>
+              <div class="gallery-table--right__item-4"></div>
+            </div>
+          </div>
+          <button class="btn">See more</button>
+        </div>
+      </section>
+      <section class="map">
+        <div class="map-div">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40715.04341182938!2d-73.87750021723916!3d40.67036176204156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c3aa3dee0fb%3A0x19510f7d1351751b!2sNowadays!5e0!3m2!1sru!2sua!4v1625986749784!5m2!1sru!2sua"
+            width="100%"
+            height="680px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="small-container">
+          <div class="contact">
+            <div class="line"></div>
+            <h2 class="contact-title" id="contact">Get in touch</h2>
+            <div class="contact-content">
+              <div class="contact-content--list">
+                <p class="contact-text">91 Nolan Extensions Suite 670</p>
+                <p class="contact-text">+001 356-868-2454</p>
+                <p class="contact-text">gahuy93@gmail.com</p>
+                <p class="contact-text">gahuy93@gmail.com</p>
+              </div>
+              <div class="contact-content--input">
+                <form action="">
+                  <input
+                    type="text"
+                    name="user_name"
+                    id="user_name"
+                    placeholder="Full name"
+                    class="contact--input"
+                  /><br />
+                  <input
+                    type="email"
+                    name="user_email"
+                    id="user_email"
+                    placeholder="Email"
+                    class="contact--input"
+                  /><br />
+                  <button class="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <img class="footer_image" src="img/Logo.png" alt="logo" />
+        </div>
+      </footer>
     </main>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

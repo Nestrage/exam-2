@@ -1,20 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.btn{
-    /**/
-    background-color: antiquewhite;
+.btn {
+  /**/
+  background-color: white;
+  border: solid black 2px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 30px;
 }
 
-h1{
-    color: $color-red
+.container {
+  width: 1180px;
+  //border: 3px solid $color-red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container{
-    width: 1170px;
-    border: 3px solid $color-red;
-    
-    
+.line {
+  width: 100px;
+  border-bottom: 2px solid black;
+  margin-top: 99px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.white-line {
+  border-bottom: 2px solid white;
+}
+.social {
+  color: white;
 }

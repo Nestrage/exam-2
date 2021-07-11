@@ -1,4 +1,58 @@
-.projects{
-    display: flex;
-    justify-content: center;
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 110px;
+}
+.projects-content {
+  display: flex;
+  //border: 2px solid green;
+  margin-bottom: 30px;
+  padding-top: 170px;
+}
+
+.projects-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+}
+
+.projects-content--img {
+  width: 630px;
+  height: 470px;
+  overflow: hidden;
+  background: url(../img/joel-filipe-151697.jpg);
+  margin-right: 70px;
+}
+
+.projects-content--img-2 {
+  width: 630px;
+  height: 470px;
+  overflow: hidden;
+  background: url(../img/photos-1284iH4Hjf4mhNgW.jpg);
+  margin-left: 65px;
+}
+
+.projects-content--text {
+  //border: 5px solid $color-red;
+  padding-top: 60px;
+  width: 470px;
+}
+.projects-content--text__h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.projects-content--text__h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.projects-content--text__p {
+  font-size: 18px;
+  line-height: 24px;
 }

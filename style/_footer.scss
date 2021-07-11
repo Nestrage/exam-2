@@ -1,0 +1,65 @@
+.footer {
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  /*background: url(../img/Frame.jpg);*/
+  background: url(../img/scott-webb-176434.png), url(../img/Frame.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url(../img/Frame.jpg);*/
+}
+
+.small-container {
+  z-index: 5;
+  margin-top: -300px;
+  position: relative;
+}
+
+.contact {
+  width: 770px;
+  height: 450px;
+  background: white;
+  padding-top: 1px;
+}
+
+.contact-title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: medium;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.contact-text {
+  line-height: 32px;
+}
+.contact-content--list {
+  width: 379px;
+}
+.contact-content--input {
+  text-align: right;
+}
+.contact--input {
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+.contact--input:hover {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.footer-container {
+  width: 770px;
+  height: 100%;
+
+  border: 2px solid black;
+}
